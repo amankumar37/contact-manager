@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import Header from "./Header"
 import AddContact from "./AddContact"
 import ContactList from "./ContactList"
+import '../styles/app.scss';
 
 
 function App(){
@@ -16,7 +17,7 @@ function App(){
 
      const deleteContact=(id)=>{
           const newContactList= contacts.filter((contact)=>{
-               return contact.id!=id;
+               return contact.id!==id;
           })
 
           setContacts(newContactList);

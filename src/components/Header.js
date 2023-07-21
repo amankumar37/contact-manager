@@ -1,10 +1,12 @@
 import React from "react";
 
-function Header(){
-    return(
-        <div className="ui fix menu">
-            <div className="ui container center">
-                   <h2>Contact Manager</h2>
+function Header() {
+    return (
+        <div className="Title"
+            style={{ paddingBlock: "1rem" }}
+        >
+            <div>
+                <h2>Contact Manager</h2>
             </div>
         </div>
     )
