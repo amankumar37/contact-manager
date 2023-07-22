@@ -2,8 +2,8 @@ import React from "react";
 
 function Header() {
     return (
-        <div className="Title"
-            style={{ paddingBlock: "1rem" }}
+        <div className="ui fix menu"
+            style={{display:"flex",justifyContent:"center", alignItems:"center ", color:"#2185d0" }}
         >
             <div>
                 <h2>Contact Manager</h2>

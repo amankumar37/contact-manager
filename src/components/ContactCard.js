@@ -48,8 +48,8 @@ function ContactCard(props) {
                , justifyContent: "flex-end", alignItems: "center"
             }}
          >
-            <i className="trash alternate outline large icon" style={{ maxWidth: "90%", height: "auto",
-             marginRight: "0rem",cursor:"pointer",color: hovered ? "blue" : "red" }} 
+            <i className="trash alternate outline big  icon" style={{ maxWidth: "90%", height: "auto",
+             marginRight: "0rem",cursor:"pointer",color: hovered ? "#2185d0" : "red" }} 
              onMouseEnter={() => setHovered(true)}
              onMouseLeave={() => setHovered(false)}
 
